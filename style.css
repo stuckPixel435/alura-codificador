@@ -1,0 +1,161 @@
+body{
+    background: #F3F5FC;
+}
+
+.areaIngresar{
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.areaIngresar textarea{
+    position: absolute;
+    font-family: 'Inter';
+    width: 652px;
+    height: 480px;
+    left: 240px;
+    top: 168px;
+    font-size: 32px;
+    color: #0A3871;
+    resize: none;
+    border: 2px solid;
+    background: #F3F5FC;
+    border-radius: 12px;
+    text-transform: lowercase;
+}
+
+.areaIngresar .botones{
+    position: absolute;
+    left: 240px;
+    top: 660px;
+}
+
+.botones img{
+    width: 16px;
+    height: 16px;
+}
+
+
+.botones p{
+    display: inline-block;
+    font-family: 'Inter';
+    font-size: 15px;
+    padding-left: 5px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+#botonEncriptar{
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding: 24px;
+    font-weight: bold;
+    left: 240px;
+    top: 750px;
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: none;
+}
+
+#botonEncriptar:hover{
+    background-color: #3D5A80;
+}
+
+#botonDesencriptar{
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    background: #D8DFE8;
+    font-weight: bold;
+    padding: 24px;
+    left: 592px;
+    top: 750px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: none;
+}
+
+#botonDesencriptar:hover{
+    background-color: #CAD0D7;
+}
+
+#botonCopiar{
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    padding: 24px;
+    font-weight: bold;
+    border-radius: 24px;
+    top: 650px;
+    margin-left: 38px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+#botonCopiar:hover{
+    background-color: #CAD0D7;
+}
+
+.areaMostrar{
+    position: relative;
+    width: 400px;
+    height: 800px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.areaMostrar img{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+
+.textoCodificado{
+    position: absolute;
+    margin: 32px 0 0 32px;
+    color: #495057;
+    font-weight: 400;
+    font-size: 24px;
+    resize: none;
+    border: none;
+    width: 330px;
+    height: 600px;
+    background-color: white;
+}
+
+.mensaje{
+    position: absolute;
+    text-align: center;
+    left: 80px;
+    top: 480px;
+}
+
+.mensaje h2{
+    color: #343A40;
+}
+
+.mensaje h3{  
+    font-size: 16px;
+    color: #495057;
+}
+
+
+
+
+
+
